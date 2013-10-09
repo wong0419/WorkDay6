@@ -7,9 +7,8 @@
         i = 1
         Do While (i <= 10)
 
-
             lstResult.Items.Add("Number is " & i ^ 2)
-            i = i + 1
+            i = i + 2
 
         Loop
 
