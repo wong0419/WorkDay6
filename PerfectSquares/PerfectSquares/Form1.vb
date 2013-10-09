@@ -1,9 +1,17 @@
 ﻿Public Class Form1
 
     Private Sub btnDisplay_Click(sender As System.Object, e As System.EventArgs) Handles btnDisplay.Click
+        Dim i As Integer
 
-        lstResult.Items.Clear()
-        lstResult.Items.Add("Not implemented yet")
+
+        i = 1
+        Do While (i <= 10)
+
+
+            lstResult.Items.Add("Number is " & i ^ 2)
+            i = i + 1
+
+        Loop
 
     End Sub
 End Class
